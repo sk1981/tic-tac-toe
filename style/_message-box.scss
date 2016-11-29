@@ -1,0 +1,33 @@
+// Message
+.message-overlay {
+  position: absolute;
+  top:0;
+  left:0;
+  right:0;
+  height: 0;
+  overflow: hidden;
+  background-color: $message-box-color;
+  opacity: 0.9;
+  transition: height 0.3s;
+}
+
+.message-overlay--visible {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.message {
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}
+
+.game-reset {
+  background: none;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+}

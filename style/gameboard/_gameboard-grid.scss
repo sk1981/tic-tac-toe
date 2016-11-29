@@ -1,0 +1,9 @@
+@import "gameboard-cell";
+.game-container {
+  position: relative;
+  display: inline-block;
+}
+
+.game-board {
+  border-collapse: collapse;
+}

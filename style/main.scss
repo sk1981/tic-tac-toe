@@ -1,0 +1,23 @@
+@import "variable";
+@import "message-box";
+@import "gameboard/gameboard-grid";
+
+@font-face {
+  font-family: Moon;
+  src: url("../resource/fonts/MoonLight.otf") format("opentype");
+}
+
+@font-face {
+  font-family: MoonBold;
+  font-weight: bold;
+  src: url("../resource/fonts/MoonBold.otf") format("opentype");
+}
+
+body {
+  background-color: $background-color;
+  font-family: Moon, sans-serif;
+}
+
+.info-panel {
+  padding: 10px;
+}
